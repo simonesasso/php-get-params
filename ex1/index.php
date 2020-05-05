@@ -2,7 +2,7 @@
 <html lang="it" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>ex1</title>
   </head>
   <body>
     <?php

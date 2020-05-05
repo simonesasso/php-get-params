@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="it" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <title>ex2</title>
   </head>
   <body>
     <?php
      $mail = $_GET['mail'];
 
      if (strpos($mail, "@") && strpos($mail, ".")) {
-       echo "ok";
+       echo "<div class='success'>" . "ok" . "</div>";
      }else {
-       echo "ko";
+       echo "<div class='failed'>" . "ko" . "</div>";
      }
      ?>
   </body>
